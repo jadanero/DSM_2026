@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="container-lg py-3">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-2">
+      <img src="images/logo.png" class="img-fluid" alt="Logo">
+    </div>
+    <div class="col-md-4 text-end">
+      <a href="#" class="btn btn-sm btn-outline-secondary">ES</a>
+      <a href="#" class="btn btn-sm btn-outline-secondary">EN</a>
+      <a href="#" class="btn btn-sm btn-outline-secondary">FR</a>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-lg">
+    <a class="navbar-brand" href="#">Bootstrap</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item">Opción 1</a></li>
+            <li><a class="dropdown-item">Opción 2</a></li>
+          </ul>
+        </li>
+      </ul>
+      <input class="form-control w-25" type="search" placeholder="Buscar">
+    </div>
+  </div>
+</nav>
+
+<!-- CAROUSEL -->
+<div class="container-lg mt-4">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/tree1.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tree2.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tree3.png" class="d-block w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TITULO ANIMADO -->
+<div class="container-lg text-center my-5">
+  <h1 class="animate__animated animate__fadeInDown">
+    Bienvenido a nuestra web
+  </h1>
+</div>
+
+<!-- BLOQUES 50/50 -->
+<div class="container-lg my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Texto</h3>
+      <p>dfsgdfgsdfgdfgdfgdfgsfdasd</p>
+    </div>
+    <div class="col-md-6">
+      <img src="images/tree1.png" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!-- 4 BLOQUES -->
+<div class="container-lg my-5">
+  <div class="row text-center">
+    <div class="col-md-3">Bloque 1</div>
+    <div class="col-md-3">Bloque 2</div>
+    <div class="col-md-3">Bloque 3</div>
+    <div class="col-md-3">Bloque 4</div>
+  </div>
+</div>
+
+<!-- ACORDEON -->
+<div class="container-lg my-5">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#a1">
+          Sección 1
+        </button>
+      </h2>
+      <div id="a1" class="accordion-collapse collapse show">
+        <div class="accordion-body">Contenido</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LOGIN + MAPA -->
+<div class="container-lg my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <form>
+        <input class="form-control mb-2" placeholder="Email">
+        <input type="password" class="form-control mb-2" placeholder="Password">
+        <button class="btn btn-primary">Login</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <img src="images/map.jpg" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white mt-5">
+  <div class="container-lg py-4">
+    <div class="row">
+      <div class="col-md-4">Footer 1</div>
+      <div class="col-md-4">Footer 2</div>
+      <div class="col-md-4">Footer 3</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
